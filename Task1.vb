@@ -1,4 +1,4 @@
-﻿Module Module1
+Module Module1
 
     Sub Main()
 
@@ -6,7 +6,7 @@
         Dim MemberID As String = ""
         Dim AddMore As Char = "Y"
 
-        FileOpen(1, "C:\Users\MSA\Desktop\Muhammad Sulaiman\A Levels\Computer Science\ABC.txt", OpenMode.Output)
+        FileOpen(1, "ABC.txt", OpenMode.Output)
 
         While UCase(AddMore) = "Y"
 
@@ -28,5 +28,5 @@
         FileClose(1)
 
     End Sub
-    
+
 End Module
