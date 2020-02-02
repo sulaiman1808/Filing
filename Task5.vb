@@ -7,7 +7,7 @@
         Dim Address As String = ""
 
         FileOpen(1, "D:\Assignment.txt", OpenMode.Input)
-        FileOpen(2, "D:\SecondFile.txt", OpenMode.Output)
+        FileOpen(2, "D:\SecondFile.txt", OpenMode.Append)
 
         While Not EOF(1)
             Input(1, MemberName)
