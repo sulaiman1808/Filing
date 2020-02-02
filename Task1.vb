@@ -6,10 +6,10 @@
         Dim ID As Integer
         Dim AddMore As Char
 
-        UCase(AddMore = "N")
+        
         MemberName = ""
         ID = 0
-        AddMore = ""
+        AddMore = "Y"
 
         FileOpen(1, "D:\Assignment.txt", OpenMode.Output)
         Do
